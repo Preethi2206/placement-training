@@ -1,0 +1,2 @@
+s = input("Enter a string: ")
+print(f"Number of vowels: {sum(1 for char in s if char in 'aeiouAEIOU')}")
