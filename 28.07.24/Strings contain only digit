@@ -1,0 +1,3 @@
+s = "12345"
+is_digit = s.isdigit()
+print(is_digit)  # Output: True
