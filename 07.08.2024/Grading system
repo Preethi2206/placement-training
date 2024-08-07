@@ -1,0 +1,14 @@
+def determine_grade(score):
+    if 90 <= score <= 100:
+        return "Grade A"
+    elif 80 <= score <= 89:
+        return "Grade B"
+    elif 70 <= score <= 79:
+        return "Grade C"
+    elif 60 <= score <= 69:
+        return "Grade D"
+    else:
+        return "Grade F"
+print(determine_grade(85))  
+print(determine_grade(60))  
+print(determine_grade(95))  
